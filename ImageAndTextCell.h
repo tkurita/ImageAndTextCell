@@ -49,7 +49,7 @@
 #import <Cocoa/Cocoa.h>
 
 @interface ImageAndTextCell : NSTextFieldCell
-@property NSImage *image_;
+@property (retain) NSImage *image_;
 
 - (void)setImage:(NSImage *)anImage;
 - (NSImage *)image;
